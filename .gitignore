@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+test-results/
+playwright-report/
+blob-report/
+videos/
+screenshots/
+.auth/
+.env
+.idea/
+.vscode/
+.DS_Store
+.pytest_cache/
+.coverage
+htmlcov/

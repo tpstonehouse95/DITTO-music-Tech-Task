@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+# Infrastructure
+base_url = "https://dittomusic.com"
+testpaths = ["tests"]
+
+# Execution Flags
+# -v: Verbose output
+addopts = "-v --browser chromium --screenshot only-on-failure --tracing retain-on-failure"
